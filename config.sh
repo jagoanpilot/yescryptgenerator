@@ -1,23 +1,11 @@
 #!/bin/bash
 
-#******************************************** SCRIPT SETTINGS ***************************************
-# This variable affects 02-generate-code.sh step
-# Ovverrides difficulty compute algorithm and always return lowest limit (Just for test purposes. Please do not set this parameter to TRUE if you do not know what are you doing.)
-export ALWAYS_MINIMUM_DIFF="FALSE"
-# This variable affects 00-install-dependencies.sh and 03-compilation.sh steps
-# Whether building on debian->TRUE or on ubuntu->FALSE
-export DEBIAN="FALSE"
-# This variable affects 00-install-dependencies.sh and 03-compilation.sh steps ... crosscompilation for windows always compile with gui
-# Whether build with gui
-export GUI="TRUE"
-#*****************************************************************************************************
-
 #******************************* COIN SETTINGS *******************************************************
 # Change stuff from about
 export COIN_GITHUB="https://github.com/jagoanpilot/jagoanpilot"
 export URL_WEBSITE="https://jagoan-pilot.online"
-export FROM_YEAR="2017"
-export TO_YEAR="2018"
+export FROM_YEAR="2020"
+export TO_YEAR="2021"
 export COIN_DOMAIN="https://jagoan-pilot.online"
 
 export COIN_NAME="JPGcoin"
