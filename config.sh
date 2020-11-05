@@ -1,5 +1,8 @@
 #!/bin/bash
-
+#******************************************** SCRIPT SETTINGS ***************************************
+export ALWAYS_MINIMUM_DIFF="FALSE"
+export DEBIAN="FALSE"
+export GUI="TRUE"
 #******************************* COIN SETTINGS *******************************************************
 # Change stuff from about
 export COIN_GITHUB="https://github.com/jagoanpilot/jagoanpilot"
