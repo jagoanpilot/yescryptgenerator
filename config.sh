@@ -6,21 +6,21 @@ export GUI="TRUE"
 #******************************* COIN SETTINGS *******************************************************
 # Change stuff from about
 export COIN_GITHUB="https://github.com/jagoanpilot/jagoanpilot"
-export URL_WEBSITE="https://jagoan-pilot.online"
-export FROM_YEAR="2020"
-export TO_YEAR="2021"
-export COIN_DOMAIN="https://jagoan-pilot.online"
+export URL_WEBSITE="https://jagoan-pilot.io"
+export FROM_YEAR="2022"
+export TO_YEAR="2022"
+export COIN_DOMAIN="https://jagoan-pilot.io"
 
-export COIN_NAME="JPGcoin"
-export COIN_UNIT="JPG"
+export COIN_NAME="JGPcoin"
+export COIN_UNIT="JGP"
 # Link to the version used in the script
-export RELEASE_URL="https://github.com/jagoanpilot/litecoin-0.14.2/releases/download/1/litecoin-0.14.2.tar.gz"
+export RELEASE_URL="https://github.com/jagoanpilot/litecoin-0.14.2/releases/download/2/litecoin-0.17.zip"
 # It’s traditional to pick a newspaper headline for the day of launch, but you don’t have to.
 # Whatever you use, keep it short. If it’s OVER 90 CHARACTERS or so the block will FAIL a length
 # check that’s supposed to prevent denial-of-service attacks from people attaching big data to transactions.
-export PHRASE="JagoanPilot Make Tutorial For Youtube"
-export MAINNET_PORT="9999"
-export TESTNET_PORT="29999"
+export PHRASE="Proof-of-work is essentially one-CPU-one-vote, Mine with CPU and GPU."
+export MAINNET_PORT="9978"
+export TESTNET_PORT="29978"
 # https://www.epochconverter.com/
 # Should be gradual (first mainnet, then testnet, then regtest)
 export MAINNET_GENESIS_TIMESTAMP="1604572802"
@@ -63,7 +63,7 @@ export NBITS="0x20000fff"
 export MIN_DIFF="000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
 # Block time
 # "minutes * 60"
-export POW_TARGET_SPACING="1 * 90"
+export POW_TARGET_SPACING="1 * 60"
 # Genesis reward
 # must be exactly this format "x * COIN"
 export GENESIS_REWARD="50 * COIN"
@@ -92,7 +92,7 @@ export COINBASE_MATURITY="100"
 export MAX_BLOCK_BASE_SIZE_MB="1"
 
 # Mainnet estimated transactions per second
-export MAINNET_ESTIMATED_TRANSACTIONS="0.01"
+export MAINNET_ESTIMATED_TRANSACTIONS="0.001"
 # Testnet estimated transactions per second
 export TEST_ESTIMATED_TRANSACTIONS="0.001"
 
